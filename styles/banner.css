@@ -1,0 +1,56 @@
+.banner {
+	position: relative;
+	height: 500px;
+	overflow: hidden;
+}
+
+.banner li {
+	position: relative;
+}
+
+.banner li, .banner a, .banner {
+	color: white;
+}
+
+.banner img {
+	height: 500px;
+	filter: brightness(50%);
+	/* NEEDED FOR CHROME */
+	-webkit-filter: brightness(50%);
+}
+
+.banner div {
+	position: absolute;
+	width: 500px;
+	text-align: center;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.unslider {
+	position: relative;
+}
+
+.unslider-arrow {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background: white;
+	line-height: 50px;
+	text-align: center;
+	font-size: 25px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: black;
+}
+
+.banner.small {
+	margin: 10px 0;
+	height: 200px;
+}
+
+.banner.small  img {
+	width: 100%;
+	height: auto;
+}

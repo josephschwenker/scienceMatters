@@ -1,0 +1,33 @@
+table {
+	border: solid #9FC5E8 1px;
+	border-collapse: collapse;
+	width: 300px;
+	height: 100%;
+}
+
+thead {
+	background: #9FC5E8;
+	color: white;
+	font-weight: bold;
+}
+
+tbody tr:nth-of-type(odd) {
+	background: white;
+}
+
+tbody tr:nth-of-type(even) {
+	background: #CFE2F3;
+}
+
+tr:last-of-type td {
+	border-bottom: none;
+}
+
+th, td {
+	border: solid #9FC5E8 1px;
+	padding: 2px 10px;
+}
+
+td {
+	text-align: center;
+}

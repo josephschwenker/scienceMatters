@@ -1,0 +1,31 @@
+.header {
+	/* COSMETIC */
+	text-align: center;
+	line-height: 1.5;
+	margin: 50px 0;
+}
+
+.header h2 {
+	/* OVERRIDE DEFAULT STYLES */
+	font-weight: normal;
+	margin: 0;
+	/* COSMETIC */
+	font-size: 18pt;
+}
+
+.header p {
+	/* OVERRIDE DEFAULT STYLES */
+	margin: 0;
+	/* COSMETIC */
+	font-size: 12pt;
+	color: #666666;
+}
+
+.header.small {
+	margin: 10px;
+}
+
+.header.small h2, .header.small p {
+	margin: 0;
+	line-height: 1.5;
+}

@@ -1,0 +1,29 @@
+footer {
+	background: white;
+}
+
+footer nav {
+	padding: 50px;
+	display: flex;
+}
+
+footer nav h1 {
+	color: #434343;
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+footer nav div {
+	flex-grow: 1;
+}
+
+footer nav li {
+	padding-left: 10px;
+	line-height: 1.5;
+}
+
+#copyright {
+	background: #434343;
+	color: white;
+	padding: 40px 80px;
+}

@@ -1,0 +1,57 @@
+form {
+	margin-top: 12pt;
+}
+
+.form {
+	margin: 50px auto !important;
+	display: table;
+	/* OVERRIDE STYLES FROM ARTICLE.CSS */
+	height: auto;
+}
+
+.form:nth-of-type(odd) img {
+	float: right;
+}
+
+.form:nth-of-type(even) img {
+	float: left;
+}
+
+.form > div {
+	/* OVERRIDE STYLES FROM ARTICLE.CSS*/
+	top: 0;
+	transform: none;
+}
+
+form input {
+	border: solid #B7B7B7 1px;
+	margin: 5px;
+	padding: 5px 15px;
+	width: 200px;
+	box-sizing: border-box;
+}
+
+form input[type="submit"] {
+	background: #CFE2F3;
+	color: #434343;
+	font-weight: bold;
+	border: solid #9FC5E8 1px;
+	padding: 10px 20px;
+	margin-top: 12pt;
+	width: 100%;
+}
+
+form textarea {
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	padding: 10px 15px;
+	resize: none;
+	margin: 5px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+form input[type="submit"]:active {
+	background: #9FC5E8;
+	color: white;
+}

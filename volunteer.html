@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Science Matters: Volunteer with Science Matters</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles/global.css">
+		<link rel="stylesheet" href="styles/navigation.css">
+		<link rel="stylesheet" href="styles/banner.css">
+		<link rel="stylesheet" href="styles/header.css">
+		<link rel="stylesheet" href="styles/article.css">
+		<link rel="stylesheet" href="styles/footer.css">
+		<link rel="stylesheet" href="styles/form.css">
+		<link rel="icon" type="image/ico" href="images/favicon.ico">
+		<meta name="description" content="Consider volunteering with our organization to spread awareness of the importance of science.">
+		<meta name="keywords" content="science, education, outreach, volunteer, volunteers, volunteering">
+		<style>
+			form {
+				display: flex;
+				flex-direction: column;
+			}
+			
+			form > div {
+				display: flex;
+				flex-direction: row;
+			}
+			
+			form > div > div {
+				display: flex;
+				flex-direction: column;
+			}
+			
+			form input[type="submit"] {
+				align-self: center;
+			}
+		</style>
+	</head>
+	<body>
+		<nav id="topNavigation" role="navigation">
+			<a href="index.html"><img class="logo" src="images/logo.svg" alt="Home"></a>
+			<div>
+				Science
+				<a href="sciencehistory.html">History</a>
+				<a href="whatisscience.html">What is science?</a>
+				<a href="scienceimportance.html">Importance</a>
+			</div>
+			<a href="articles.html">Articles</a>
+			<div class="active">
+				Get involved
+				<a href="donate.html">Donate</a>
+				<a href="volunteer.html">Volunteer</a>
+				<a href="contactcongressman.html">Contact your congressman</a>
+			</div>
+			<div>
+				About us
+				<a href="ourhistory.html">History</a>
+				<a href="ourmission.html">Our mission</a>
+				<a href="contact.html">Contact us</a>
+			</div>
+			<label style="display: none" for="search">Search</label>
+			<input id="search" type="search" placeholder="&#x1F50D; Search">
+		</nav>
+		<header class="banner" role="banner">
+			<img src="images/testTubes.jpg" alt="">
+			<div>
+				<h2>Volunteer with Science Matters</h2>
+				<p>Thanks to our broad network of volunteers, we have reached millions of people.</p>
+			</div>
+		</header>
+		<main role="main">
+			<article>
+				<img src="images/chicago.jpg" alt="">
+				<div>
+					<h3>Find your local chapter</h3>
+					<p>With three hundred local chapters, Science Matters organizes events across the nation. Sign up below, and a representative from your nearest local chapter will contact you!</p>
+				</div>
+			</article>
+			<article class="form">
+				<div>
+					<h3>Sign up to volunteer</h3>
+					<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+						<div>
+							<div>
+								<label style="display: none" for="name">Full name</label>
+								<input id="name" name="name" type="text" placeholder="Full name">
+								<label style="display: none" for="email">Email address</label>
+								<input id="email" name="email" type="email" placeholder="Email address">
+								<label style="display: none" for="phone">Phone number</label>
+								<input id="phone" name="phone" type="tel" placeholder="Phone number">
+							</div>
+							<div>
+								<label style="display: none" for="address">Street address</label>
+								<input id="address" name="address" type="text" placeholder="Street address">
+								<label style="display: none" for="city">City</label>
+								<input id="city" name="city" type="text" placeholder="City">
+								<label style="display: none" for="state">State</label>
+								<input id="state" name="state" type="text" placeholder="State">
+								<label style="display: none" for="zipCode">Zip code</label>
+								<input id="zipCode" name="zipCode" type="text" placeholder="Zip code">
+							</div>
+						</div>
+						<input type="submit" value="Volunteer!">
+					</form>
+				</div>
+			</article>
+		</main>
+		<footer>
+			<nav role="navigation">
+				<div>
+					<h1>Why science matters</h1>
+					<ul>
+						<li><a href="sciencehistory.html">History of science</a></li>
+						<li><a href="whatisscience.html">What is science?</a></li>
+						<li><a href="scienceimportance.html">The importance of science</a></li>
+						<li><a href="articles.html">Articles</a></li>
+					</ul>
+				</div>
+				<div>
+					<h1>Get involved</h1>
+					<ul>
+						<li><a href="donate.html">Donate</a></li>
+						<li><a href="volunteer.html">Volunteer</a></li>
+						<li><a href="contactcongressman.html">Contact your congressman</a></li>
+					</ul>
+				</div>
+				<div>
+					<h1>Who we are</h1>
+					<ul>
+						<li><a href="ourhistory.html">History</a></li>
+						<li><a href="ourmission.html">Our mission</a></li>
+						<li><a href="contact.html">Contact us</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div role="contentinfo" id="copyright">Copyright © 2016 <a href="mailto:JSchwenker@dbq.edu">Science Matters.</a> All rights reserved. Last updated</div>
+		</footer>
+		<script src="scripts/search.js"></script>
+		<script src="scripts/lastUpdated.js"></script>
+	</body>
+</html>

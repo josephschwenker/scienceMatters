@@ -1,0 +1,1 @@
+copyright.textContent += " " + document.lastModified + "."

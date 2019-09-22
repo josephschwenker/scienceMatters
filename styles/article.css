@@ -1,0 +1,49 @@
+article {
+	background: white;
+	margin: 50px 0;
+	height: 400px;
+	overflow: hidden;
+}
+
+article > div {
+	padding: 40px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+article img {
+	height: 100%;
+}
+
+article:nth-of-type(odd) {
+	margin-left: 50px;
+}
+
+article:nth-of-type(odd) img {
+	float: right;
+	margin-left: 40px;
+}
+
+article:nth-of-type(even) {
+	margin-right: 50px;
+}
+
+article:nth-of-type(even) img {
+	float: left;
+	margin-right: 40px;
+}
+
+article h3 {
+	font-size: 18pt;
+	font-weight: normal;
+	margin: 0;
+}
+
+article p, ul, ol {
+	font-size: 12pt;
+	margin: 0;
+	line-height: 1.5;
+	margin: 10pt 0;
+	color: #434343
+}

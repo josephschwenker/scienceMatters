@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Science Matters: Contact us</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles/global.css">
+		<link rel="stylesheet" href="styles/navigation.css">
+		<link rel="stylesheet" href="styles/banner.css">
+		<link rel="stylesheet" href="styles/header.css">
+		<link rel="stylesheet" href="styles/article.css">
+		<link rel="stylesheet" href="styles/footer.css">
+		<link rel="stylesheet" href="styles/form.css">
+		<link rel="icon" type="image/ico" href="images/favicon.ico">
+		<meta name="description" content="Contact our organization with your questions and comments.">
+		<meta name="keywords" content="science, contact, questions, comments, concerns">
+		<style>
+			.form {
+				width: 600px;
+			}
+			
+			form > div {
+				display: flex;
+				flex-direction: column;
+			}
+			
+			form input, form textarea {
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<nav id="topNavigation" role="navigation">
+			<a href="index.html"><img class="logo" src="images/logo.svg" alt="Home"></a>
+			<div>
+				Science
+				<a href="sciencehistory.html">History</a>
+				<a href="whatisscience.html">What is science?</a>
+				<a href="scienceimportance.html">Importance</a>
+			</div>
+			<a href="articles.html">Articles</a>
+			<div>
+				Get involved
+				<a href="donate.html">Donate</a>
+				<a href="volunteer.html">Volunteer</a>
+				<a href="contactcongressman.html">Contact your congressman</a>
+			</div>
+			<div class="active">
+				About us
+				<a href="ourhistory.html">History</a>
+				<a href="ourmission.html">Our mission</a>
+				<a href="contact.html">Contact us</a>
+			</div>
+			<label for="search" style="display: none">Search</label>
+			<input id="search" type="search" placeholder="&#x1F50D; Search">
+		</nav>
+		<header class="banner" role="banner">
+			<img src="images/information.jpg" alt="">
+			<div>
+				<h2>Contact us</h2>
+				<p>We appreciate your questions and comments.</p>
+			</div>
+		</header>
+		<main role="main">
+			<article>
+				<img src="images/narrow/saganSmile.jpg" alt="">
+				<div>
+					<h3>Science Matters cares</h3>
+					<p>Here at Science Matters, a large part of our mission is helping the public. That means that you are a priority to us! Please take a minute to let us know how we can better help you.</p>
+				</div>
+			</article>
+			<article class="form">
+				<div>
+					<h3>Contact us</h3>
+					<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+						<div>
+							<label style="display: none" for="email">Email</label>
+							<input name="email" id="email" type="email" placeholder="Email address">
+							<label style="display: none" for="comments">Comments</label>
+							<textarea name="comments" id="comments" placeholder="What's on your mind?" rows="5"></textarea>
+							<input type="submit" value="Send">
+						</div>
+					</form>
+				</div>
+			</article>
+		</main>
+		<footer>
+			<nav role="navigation">
+				<div>
+					<h1>Why science matters</h1>
+					<ul>
+						<li><a href="sciencehistory.html">History of science</a></li>
+						<li><a href="whatisscience.html">What is science?</a></li>
+						<li><a href="scienceimportance.html">The importance of science</a></li>
+						<li><a href="articles.html">Articles</a></li>
+					</ul>
+				</div>
+				<div>
+					<h1>Get involved</h1>
+					<ul>
+						<li><a href="donate.html">Donate</a></li>
+						<li><a href="volunteer.html">Volunteer</a></li>
+						<li><a href="contactcongressman.html">Contact your congressman</a></li>
+					</ul>
+				</div>
+				<div>
+					<h1>Who we are</h1>
+					<ul>
+						<li><a href="ourhistory.html">History</a></li>
+						<li><a href="ourmission.html">Our mission</a></li>
+						<li><a href="contact.html">Contact us</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div role="contentinfo" id="copyright">Copyright © 2016 <a href="mailto:JSchwenker@dbq.edu">Science Matters.</a> All rights reserved. Last updated</div>
+		</footer>
+		<script src="scripts/search.js"></script>
+		<script src="scripts/lastUpdated.js"></script>
+	</body>
+</html>

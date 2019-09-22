@@ -1,0 +1,12 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	margin: 0;
+	background: #ECF9FF;
+	min-width: 768px;
+}
+
+a {
+	text-decoration: none;
+	color: #4A86E8;
+}

@@ -1,0 +1,74 @@
+#topNavigation  {
+	/* LAYOUT */
+	display: flex;
+}
+
+.logo {
+	height: 35px;
+	vertical-align: middle;
+}
+
+#topNavigation > * {
+	/* LAYOUT */
+	flex-grow: 1;
+	flex-basis: 0;
+	/* COSMETIC */
+	height: 50px;
+	line-height: 50px;
+	background: white;
+	text-align: center;
+	/* TRANSITIONS */
+	transition: background 0.5s;
+}
+
+#topNavigation > * a {
+	display: block;
+	visibility: hidden;
+	background: white;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+#topNavigation > *:hover a {
+	visibility: visible;
+	position: relative;
+	opacity: 1;
+	z-index: 1;
+	font-weight: normal;
+}
+
+#topNavigation > *:hover, #topNavigation >* a:hover {
+	background: #CFE2F3;
+}
+
+#topNavigation a {
+	/* OVERRIDE DEFAULT STYLES */
+	color: black;
+}
+
+#search {
+	/* COSMETIC */
+	font-size: 12pt;
+	border: none;
+	width: 100px;
+}
+
+.active {
+	background: #9FC5E8 !important;
+	color: white !important;
+	font-weight: bold;
+}
+
+.active img {
+	filter: invert(100%);
+	/* NEEDED FOR CHROME */
+	-webkit-filter: invert(100%);
+}
+
+#active:hover {
+	background: #9FC5E8;
+}
+
+#search:focus {
+	background: #CFE2F3;
+}
